@@ -1,0 +1,16 @@
+App(
+    appid="dktiop_lamp_remote",
+    name="DKTIOP Lamp",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="dktiop_lamp_remote_app",
+    requires=[
+        "gui",
+    ],
+    stack_size=2 * 1024,
+    order=12,
+    fap_category="Sub-GHz",
+    fap_version=(1, 1),
+    fap_description="Graphical 433.92 MHz Sub-GHz remote for DKTIOP desktop lamp",
+    fap_icon="dktiop_lamp_remote.png",
+)

@@ -1,0 +1,6 @@
+dist/
+.vscode/
+.ufbt/
+*.fap
+*.elf
+.DS_Store
